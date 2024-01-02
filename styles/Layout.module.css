@@ -1,40 +1,52 @@
 .nav {
-    background-color: #4267B2; /* Dark background */
-    height: 50px; /* Height of the nav bar */
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex; /* Align nav items in a row */
-    justify-content: space-between;
-    align-items: center; /* Center items vertically */
-    padding: 0 10px; /* Padding on the sides */
-    z-index: 200;
-  }
+  background:
+    linear-gradient(to right, transparent , #3C5898 40%),
+    url(https://grainy-gradients.vercel.app/noise.svg);
+  /* Dark background */
+  height: 10vh;
+  /* Height of the nav bar */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  /* Align nav items in a row */
+  justify-content: space-between;
+  align-items: center;
+  /* Center items vertically */
+  padding: 0 10px;
+  /* Padding on the sides */
+  z-index: 0;
+}
 
-  .leftnavbar {
-    justify-content: flex-start !important;
-    display: flex !important;
-    padding-left: 5px;
-  }
+.leftnavbar {
+  justify-content: flex-start !important;
+  display: flex !important;
+  padding-left: 5px;
+}
 
- .leftnavbar h1 {
-    color: white
- }
+.leftnavbar h1 {
+  color: white
+}
 
-  .rightnavbar {
-    justify-content: flex-end;
-  }
-  
-  .nav a {
-    color: white; /* Text color for nav links */
-    padding: 0 15px; /* Spacing around nav links */
-    text-decoration: none; /* No underline on links */
-    font-weight: bold; /* Bold font for links */
-  }
+.rightnavbar {
+  justify-content: flex-end;
+}
 
-  .main {
-    padding-top: 50px; /* Height of the nav bar plus 10px space */
-  }
-  
-  /* You can add more styling for hover effects, active link, etc. */
-  
+.nav a {
+  color: white;
+  /* Text color for nav links */
+  padding: 0 15px;
+  /* Spacing around nav links */
+  text-decoration: none;
+  /* No underline on links */
+  font-weight: bold;
+  /* Bold font for links */
+}
+
+.main {
+  padding-top: 10vh;
+  /* Height of the nav bar plus 10px space */
+}
+
+
+/* You can add more styling for hover effects, active link, etc. */
