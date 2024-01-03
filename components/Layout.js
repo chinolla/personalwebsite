@@ -11,9 +11,9 @@ export default function Layout({children}) {
                 </div>
                 <div className={styles.rightnavbar}>
                 <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-                <Link href="/projects">Projects</Link>
-                <Link href="/contact">Contact</Link>
+                <Link href="/yap">Yap Sessions</Link>
+                <Link href="https://github.com/chinolla">Projects</Link>
+                <Link href="https://www.linkedin.com/in/cristobalchinolla/">Contact</Link>
                 </div>
   
             </nav>
