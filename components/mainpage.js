@@ -17,7 +17,7 @@ export default function MainPage() {
                 <TechStack>
                 </TechStack>
                 <ContactCard>
-                    
+
                 </ContactCard>
             </aside>
             <section className={styles.maincontent}>
@@ -59,7 +59,7 @@ export default function MainPage() {
                 <ContentCard
                     title="What I'm Learning"
                     body={[
-                        <InnerContent subheading="100 Day of Swift:" content="I fell in love with programming after watching The Social Network. I changed my major to Computer Science the very next day and never looked back." />,
+                        <InnerContent subheading="100 Day of Swift:" content="highly recommended by the iOS dev twitter community" />,
                         
                     ]}
                 />
@@ -68,7 +68,7 @@ export default function MainPage() {
                     body={[
                         <InnerContent subheading="code code code:" content="The amound of 'fun' code I wrote decreased to zero after graduating. This year, I want to reignite my passion for programming, aiming to commit at least 300/365 days" />,
                         <InnerContent subheading="back to basics:" content="Like coding for fun, I stopped practicing any sort of Data Structures and Algorithms problems as soon as I graduated. This year, I am committed to sharpen my skill and have fun completing LeetCode problems again." />,
-                        <InnerContent subheading="marathon???" content="I used to run. have a few marathons under my belt. maybe I'll lace up the shoes again" />,
+                        <InnerContent subheading="marathon???" content="I used to run. have a few marathons under my belt. maybe I'll lace up the shoes again idk" />,
                         <InnerContent subheading="career moves" content="this year i'll be eclipsing 2 years at my current company/position. I welcome any new opportunites and challenges" />,
                         <InnerContent subheading="gaming like old times:" content="since I'll be learning iOS development. It would be cool to make a farm like game like Zombie Farm" />,
                     ]}
