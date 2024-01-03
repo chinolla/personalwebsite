@@ -2,7 +2,7 @@
   background:
     linear-gradient(to right, rgb(215,219,231) , rgb(83,108,163) 40%),
     url(https://grainy-gradients.vercel.app/noise.svg);
-  height: auto;
+  height: 15vh;
   overflow: auto;
   top: 0;
   width: 100%;
@@ -24,12 +24,13 @@
 .leftnavbar h1 {
   color: white;
   margin: 0;
-  font-size: 50px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 .rightnavbar {
   width: 100%;
-  padding-right: 29%;
+  padding-right: 33%;
   padding-bottom: 1%;
   display: flex;
   justify-content: flex-end;
@@ -42,8 +43,9 @@
   /* Spacing around nav links */
   text-decoration: none;
   /* No underline on links */
-  font-weight: bold;
+  font-weight: normal;
   /* Bold font for links */
+  font-size: large;
 }
 
 .main {
