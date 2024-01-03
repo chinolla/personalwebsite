@@ -1,6 +1,6 @@
 .nav {
   background:
-    linear-gradient(to right, rgb(215,219,231) , rgb(83,108,163) 40%),
+    linear-gradient(to right, rgb(215, 219, 231), rgb(83, 108, 163) 40%),
     url(https://grainy-gradients.vercel.app/noise.svg);
   height: 15vh;
   overflow: auto;
@@ -16,7 +16,7 @@
   padding-right: 28%;
   padding-top: 1%;
   display: flex;
-  align-items:flex-end;
+  align-items: flex-end;
   justify-content: flex-end;
   height: 100%;
 }
@@ -48,10 +48,28 @@
   font-size: large;
 }
 
-.main {
+@media (max-width: 600px) {
+  .nav {
+    justify-content: center;
+  }
 
-  /* Height of the nav bar plus 10px space */
+  .leftnavbar {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .rightnavbar {
+    width: 100%;
+    padding-right: 0%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  
+
 }
-
-
-/* You can add more styling for hover effects, active link, etc. */

@@ -52,3 +52,21 @@
     margin: 0;
     width: 89%;
 }
+
+@media (max-width: 600px) {
+    .innercontent p1 {
+        color: rgb(26, 26, 26);
+        margin: 0;
+        width: 15%;
+        margin-right: 20%;
+        padding-bottom: 1%;
+    }
+
+    .innercontent p {
+        color: rgb(126, 126, 126);
+        margin: 0;
+        width: auto;
+        padding-bottom: 1%;
+    }
+    
+  }
