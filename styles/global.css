@@ -2,18 +2,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: monospace;
-  line-height: 1.6;
-  font-size: 18px;
-  word-spacing: -10px;
-
+  font-family: pixelfont;
+  font-size:medium;
+  word-spacing: -1px;
 }
 
 body h2 {
-  font-weight: lighter;
+  font-weight: 100;
   margin: 0;
   padding: 10px;
-  color: white;
+  color: rgb(239, 243, 255)
 }
 
 * {
@@ -32,4 +30,14 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+
+@font-face {
+  font-family: 'pixelfont';
+  src: url('../assets/fonts2/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+       url('../assets/fonts2/vcr_osd_mono_1.001-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+
 }

@@ -18,7 +18,7 @@ export default function ContentCard (props){
 export function InnerContent (props) {
     return (
         <div className={styles.innercontent}>
-            <h3>{props.subheading}</h3>
+            <p1>{props.subheading}</p1>
             <p>{props.content}</p>
         </div>
         
