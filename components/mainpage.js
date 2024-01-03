@@ -5,6 +5,7 @@ import { InnerContent } from './ContentCard';
 import TechStack from './TechStack';
 import React from 'react';
 import ProfilePicture from './ProfilePicture';
+import ContactCard from './ContactCard';
 
 export default function MainPage() {
     return (
@@ -15,6 +16,9 @@ export default function MainPage() {
                 />
                 <TechStack>
                 </TechStack>
+                <ContactCard>
+                    
+                </ContactCard>
             </aside>
             <section className={styles.maincontent}>
                 <div className={styles.subheader}>

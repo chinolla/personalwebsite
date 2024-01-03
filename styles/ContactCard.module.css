@@ -1,0 +1,44 @@
+.outer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border: 2px solid rgb(83,108,163);
+}
+
+.header {
+    background-color: rgb(83,108,163);
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.header h2 {
+    margin: 0;
+    color: rgb(239, 243, 255);
+    padding: 1%;
+}
+
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.content a {
+    color: black;
+  /* Text color for nav links */
+  padding: 0 15px;
+  /* Spacing around nav links */
+  text-decoration: none;
+  /* No underline on links */
+  font-weight: normal;
+  /* Bold font for links */
+  font-size: large;
+}
