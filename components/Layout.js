@@ -7,7 +7,7 @@ export default function Layout({children}) {
         <div>
             <nav className={styles.nav}>
                 <div className={styles.leftnavbar}>
-                    <h1>Chris.Dev</h1>
+                    <h1>[thefacebook]</h1>
                 </div>
                 <div className={styles.rightnavbar}>
                 <Link href="/">Home</Link>

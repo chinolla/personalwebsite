@@ -1,34 +1,37 @@
 .nav {
   background:
-    linear-gradient(to right, transparent , #3C5898 40%),
+    linear-gradient(to right, rgb(215,219,231) , rgb(83,108,163) 40%),
     url(https://grainy-gradients.vercel.app/noise.svg);
-  /* Dark background */
-  height: 10vh;
-  /* Height of the nav bar */
-  position: fixed;
+  height: auto;
+  overflow: auto;
   top: 0;
   width: 100%;
   display: flex;
-  /* Align nav items in a row */
-  justify-content: space-between;
-  align-items: center;
-  /* Center items vertically */
+  flex-direction: column;
   padding: 0 10px;
-  /* Padding on the sides */
-  z-index: 0;
 }
 
 .leftnavbar {
-  justify-content: flex-start !important;
-  display: flex !important;
-  padding-left: 5px;
+  width: 100%;
+  padding-right: 28%;
+  padding-top: 1%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: flex-end;
+  height: 100%;
 }
 
 .leftnavbar h1 {
-  color: white
+  color: white;
+  margin: 0;
+  font-size: 50px;
 }
 
 .rightnavbar {
+  width: 100%;
+  padding-right: 29%;
+  padding-bottom: 1%;
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -44,7 +47,7 @@
 }
 
 .main {
-  padding-top: 10vh;
+
   /* Height of the nav bar plus 10px space */
 }
 
