@@ -2,24 +2,19 @@ import styles from '../styles/main.module.css'
 import Image from 'next/image';
 import ContentCard from './ContentCard';
 import { InnerContent } from './ContentCard';
+import TechStack from './TechStack';
 import React from 'react';
+import ProfilePicture from './ProfilePicture';
 
 export default function MainPage() {
     return (
 
         <div className={styles.main}>
             <aside className={styles.sidecontent}>
-            <div className={styles.pictureheader}>
-                    <h2>Profile Picture</h2>
-                </div>
-                <Image className={styles.profilepic}
-                    src="/images/profilepix.png"
-                    width={375}
-                    height={375}
-                    layout='intrinsic'
-                    alt="Picture of the author"
+                <ProfilePicture
                 />
-
+                <TechStack>
+                </TechStack>
             </aside>
             <section className={styles.maincontent}>
                 <div className={styles.subheader}>
