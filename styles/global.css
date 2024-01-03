@@ -35,9 +35,9 @@ img {
 
 @font-face {
   font-family: 'pixelfont';
-  src: url('../assets/fonts2/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
-       url('../assets/fonts2/vcr_osd_mono_1.001-webfont.woff') format('woff');
-  font-weight: lighter;
+  src: url('../assets/font3/pixeloperator-webfont.woff2') format('woff2'),
+       url('../assets/font3/pixeloperator-webfont.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
 
 }
